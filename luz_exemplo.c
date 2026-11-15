@@ -41,9 +41,9 @@ void Inicializa (void)
 	glShadeModel(GL_SMOOTH);
 
 	// Define a refletância do material 
-	glMaterialfv(GL_FRONT,GL_SPECULAR, especularidade);
+	glMaterialfv(GL_FRONT, GL_SPECULAR, especularidade);
 	// Define a concentração do brilho
-	glMateriali(GL_FRONT,GL_SHININESS,especMaterial);
+	glMateriali(GL_FRONT, GL_SHININESS, especMaterial);
 
 	// Ativa o uso da luz ambiente 
 	glLightModelfv(GL_LIGHT_MODEL_AMBIENT, luzAmbiente);
